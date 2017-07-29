@@ -1,0 +1,315 @@
+body {
+	
+}
+
+#name {
+	background: #4aaaa5;
+	position: relative;
+	display: inline-block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 215px;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.navbar-header {
+	padding-top: 0px;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 24px;
+	color: white;
+
+}
+
+
+#links1 {
+	display: inline-block;
+	color: #777777;
+	float: right;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	margin-right: 5%;
+}
+
+ul {
+	display: inline-block;
+    list-style-type: none;
+    float: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+hr {
+	display: hidden;
+}
+
+#hr1 {
+	border-left: 0px;
+    margin-top: 0px;
+    border-bottom-width: 4px;
+    border-color: #c6c6c6;
+}
+
+#hr2 {
+	border-left: 0px;
+    margin-top: 0px;
+    border-bottom-width: 2px;
+    border-color: #c6c6c6;
+}
+
+#hr3 {
+	border-left: 0px;
+    margin-top: -15px;
+    border-bottom-width: 1px;
+    border-color: #c6c6c6;
+}
+
+#hr4 {
+    margin-top: 0px;
+	border-left: 0px;
+    border-bottom-width: 10px;
+    height: 20px;
+    background-color: #4aaaa5;
+}
+
+h1 {
+	font-size: 25px;
+	color: #4aaaa5;
+}
+
+/* unvisited link */
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border: 2px solid #e7e7e7;
+}
+
+.container {
+	clear: both;
+	background-image: url(../images/concrete-texture/concrete-texture.png);
+	margin: auto;
+	width: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#about {
+	text-align: left;
+	margin-top: 0px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+#bio {
+	background-color: white;
+	padding: 20px;
+	margin: 2%;
+	display: inline-block;
+	color: #777777;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+#bio-pic {
+	padding-right: 15px;
+	float: left;
+}
+
+#connect-title{
+	font-size: 22px;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+#connect {
+	background-color: white;
+	padding: 20px;
+	float: right;
+	margin-right: 5%;
+	display: inline-block;
+
+}
+
+#links2 {
+	padding: 9px;
+}
+
+.imageLinks {
+	width:40px; 
+	height:40px; 
+	border:0;
+}
+
+#portfolio {
+	background-color: white;
+	padding: 20px;
+	width: 400px;
+	margin-left: 140px;
+	display: inline-block;
+	color: #777777;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+.portfolio-div {
+	display: inline-block;
+	position: relative;
+	width: 155px;
+}
+
+.portfolio-text {
+	background-color: #4aaaa5;
+	position: absolute;
+	width: inherit;
+	margin-top: 72px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+}
+
+#contact {
+	background-color: white;
+	display: inline-block;
+	width: 500px;
+	padding: 20px;
+	margin-left: 140px;
+}
+
+input {
+	width: 99%;
+}
+
+input[type=button] {
+	width: 20%;
+	background-color: #4aaaa5;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	color: white;
+	background-color: #666666;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: -10px;
+	font-size: 13px;
+}
+
+
+/*media screen width less than 992px*/
+@media screen and (max-width: 992px) {
+	#connect {
+		width: 96%;
+		float: none;
+		margin-left: 18px;
+		padding-left: 10px;
+	}
+
+	#links2 {
+		float: none;
+	}
+}
+
+
+/*media screen width less than 767px*/
+@media screen and (max-width: 768 px) {
+	#name {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	/*	centering name with padding*/
+	.navbar-default .navbar-brand {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+
+	#links1 {
+		width: 100%;
+		padding-top: 0;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	#connect {
+		width: 96%;
+		float: none;
+		margin-left: 18px;
+		padding-left: 10px;
+	}
+
+	#links2 {
+		float: none;
+	}
+}
+
+/*media screen width less than 640px*/
+@media screen and (max-width: 640px) {
+	#name {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.navbar-default .navbar-brand {
+		padding-left: 26%;
+		padding-right: 26%;
+	}
+
+	#links1 {
+		width: 100%;
+		padding-top: 0;
+		padding-left: 0%;
+		padding-right: 0%;
+		float: none;
+	}
+
+	#connect {
+		width: 96%;
+		float: none;
+		margin-left: 6px;
+		padding-left: 10px;
+	}
+
+	#links2 {
+		float: none;
+	}
+
+	#bio-pic {
+		float: none;
+		width: 100%;
+	}
+}
+
+
